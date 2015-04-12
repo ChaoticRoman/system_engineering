@@ -12,20 +12,21 @@ Introduction
 ------------
 
 The aim of this document is to define system engineering procedure suitable
-for small projects featuring different blocks interfaced in various ways.
+for small projects featuring different subunits interfaced in various ways.
 The purpose of system engineering procedure is to support development of such
 systems by proper requirements development and high-level design. Main tool
 of system engineering is detailed documentation addressing requirements
 traceability, proper definition of system subunits, their function, interfacing
-and operating environment, preliminary schedule and budget
+and operating environment and preliminary schedule and budget
 
 The presented procedure is simplified version of system engineering procedure
 required by European Cooperation on Space Standardization (ECSS) stadards.
 The procedure is simplified for purpose of small (<10 people) and short (<1 year)
-projects. Six project phases were identified but project development
-is much more often incremental process due to different reasons and system design
-should be flexible and robust enough to be able to incorporate changes
-due to requirement change or previous flawed design decisions.
+projects. Six project phases were identified but project development is much more
+often incremental process due to different reasons and system design should
+be flexible and robust enough to be able to incorporate changes due to requirement
+change or previous flawed design decisions. Documents to be prepared in different
+project phases listed per project phases follows.
 
 
 Phase A: Project definition
@@ -43,9 +44,8 @@ mission related and other requirements. Every requirement has its unique
 identificator, is verifable, separatedly stated, fail/pass decidable
 and unambigious. Requirements specification should be as complete
 as possible: full success of the project should be equivalent
-to all requiremnts being fulfilled.
+to all requirements being fulfilled.
 
-Note: Project statement can be merged to Requirements specification.
 
 Phase B: High-level design
 --------------------------
@@ -66,11 +66,9 @@ Phase C: Detailed design
 
 Schematics, layouts, code, suppliers, user manuals, operation procedures,
 implementation, verification and testing procedures, supporting and disposal
-plans, schedule, budged, life cycle including end-of-life and disposal,
-compliance to high-level design...
-
-Note: System concept report should be part of Design definition file and
-any change shall be justified.
+plans, schedule, budged, life cycle including end-of-life and disposal
+and compliance to high-level design. System concept report should be part
+of Design definition file and any change shall be justified.
 
 Phase D: Prototyping, verification and testing
 ----------------------------------------------
