@@ -1,0 +1,52 @@
+############################
+System engineering procedure
+############################
+Roman Pavelka, rev 0, 2015-04-02
+
+Documents prepared per project phases
+=====================================
+
+A. Mission/project definition
+------------------------------
+Mission/project statement
+    text describing goals to be accomplished
+
+Requirements specification document
+    list of justifiable requirements: functional, interface, physical,
+        enviromental, life span, budget, operational, mission related
+    requirement: has identificator, is justified to mission/project
+        statement, is verifable, separatedly stated
+
+Note: Mission/project statement and Requirements specification document
+      can be merged to single Mission/project definition document
+
+B. High-level design
+--------------------
+System concept report
+    System blocks description and its requirements, interfacing, HW, SW,
+    tools, functional description, requirement traceability, justification
+    to mission/project statement, feasibility
+
+C. Detailed design
+------------------
+Design definiton file
+    Schematics, layouts, code, suppliers, user manuals, operation procedures,
+    implementation, verification and testing procedures, supporting and disposal
+    plans, schedule, budged, life cycle including end-of-life and disposal,
+    compliance to high-level design
+
+D. Implementation
+-----------------
+Build logs
+
+E. Verification
+---------------
+Test reports etc..
+
+F. Operations and support
+-------------------------
+Operational logs, support reports, failures log
+
+G. Disposal
+-----------
+Disposal log
