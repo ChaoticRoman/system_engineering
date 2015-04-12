@@ -1,53 +1,63 @@
-System engineering procedure
-============================
+Simple System Engineering Procedure
+===================================
 Roman Pavelka <ChaoticRoman@seznam.cz>
 
 Revision history:
 
-1. RP, 2015-04-02: Initial version
-2. RP, 2015-04-12: notes, introduction
+1. 2015-04-02, RP: Initial version.
+2. 2015-04-12, RP: Notes, introduction, minor changes.
+
 
 Introduction
 ------------
-The aim of this document is to define system engineering procedure suitable
-for projects featuring different blocks interfaced in various ways.
-The purpose of system engineering procedure is to support development of such
-systems by proper requirements development and high-level design addressing
-stated requirements and defined up to requirements on single blocks, interface
-specification and feasibility analysis.
 
-The presented procedure is simplified version of system engineering required
-by European Cooperation on Space Standardization (ECSS) stadards. The procedure
-is simplified for small (<5k$ USD) and short (<1 year) projects.
+The aim of this document is to define system engineering procedure suitable
+for small projects featuring different blocks interfaced in various ways.
+The purpose of system engineering procedure is to support development of such
+systems by proper requirements development and high-level design. Main tool
+of system engineering is detailed documentation addressing requirements
+traceability, proper definition of system subunits, their function, interfacing
+and operating environment, preliminary schedule and budget
+
+The presented procedure is simplified version of system engineering procedure
+required by European Cooperation on Space Standardization (ECSS) stadards.
+The procedure is simplified for purpose of small (<10 people) and short (<1 year)
+projects. Seven project phases were identified but project development
+is very often incremental process due to different reasons and system design
+should be flexible and robust enough to be able to incorporate changes
+due to requirement change or previous flawed design decisions.
+
 
 Phase A: Project definition
 ---------------------------
 
-### Mission/project statement
+### Project statement
 
-Text describing in goals to be accomplished.
+Project statement is a document describing goals to be accomplished.
 
 ### Requirements specification
 
-Lists requirements to be agreed upon, i.e. functional, interface, physical,
-enviromental, life span, budget, operational, mission related and others.
-Every requirement has its unique identificator, is justified to mission/project
-statement, is verifable, separatedly stated.
+Requirements specification is a formal document defining functional,
+interfacing, physical, enviromental, life span, budget, operational,
+mission related and other requirements. Every requirement has its unique
+identificator, is verifable, separatedly stated, fail/pass decidable
+and unambigious. Requirements specification should be as complete
+as possible: full success of the project should be equivalent
+to all requiremnts being fulfilled.
 
-Note: Mission/project statement and Requirements specification document
-can be merged to single Mission/project definition document
+Note: Project statement can be merged to Requirements specification.
 
 Phase B: High-level design
 --------------------------
 
-### System concept report
+### System concept
 
-System blocks description and its requirements, interfacing, HW, SW,
-tools, functional description, requirement traceability, justification
-to mission/project statement, feasibility
-
-Note: Mission/project statement and Requirements specification should
-be part of System concept report and any change shall be justified.
+System concept should describe system design including all subunits,
+their purpose, function and requirements, internal and external interfacing,
+HW, SW, tools, verifiaction and testing, functional description, operations,
+requirement traceability and concept feasibility with preliminary budget
+and shedule. Project statement and Requirements specification should be
+part of System concept and any change in these shall be justified.
 
 Phase C: Detailed design
 ------------------------
@@ -62,23 +72,21 @@ compliance to high-level design...
 Note: System concept report should be part of Design definition file and
 any change shall be justified.
 
-Phase D: Implementation
------------------------
+Phase D: Prototyping, verification and testing
+----------------------------------------------
 
 - Build logs
-
-Phase E: Verification
----------------------
 - Test reports
 
-Phase F: Operations and support
--------------------------------
+Phase F: Production, operation and support
+------------------------------------------
 
-- Operational logs
+- Production logs
+- Operation logs
 - Support reports
-- Failures log
+- Failure log
 
-Phase G: Disposal
------------------
+Phase G: End of life and disposal
+---------------------------------
 
-- Disposal log
+- Disposal statement
