@@ -1,21 +1,20 @@
-===============================================
-System engineering procedure per project phases
-===============================================
+============================
+System engineering procedure
+============================
 Roman Pavelka <ChaoticRoman@seznam.cz>
 
-Revision history
-================
-Revision 0, RP, 2015-04-02: Initial version
-Revision 1, RP, 2015-04-12: Asciidoc format, garbage out, notes, introduction
+Revision history:
+1. RP, 2015-04-02: Initial version
+2. RP, 2015-04-12: Asciidoc format, garbage out, notes, introduction
 
 Introduction
 ============
-The aim of this document is to define _system engineering_ procedure suitable
+The aim of this document is to define system engineering procedure suitable
 for projects or missions featuring different blocks interfaced in various ways.
 The purpose of system engineering procedure is to support development of such
-systems by proper requirements development addressed by complete high-level
-design concept including blocks, both physical and virtual, and their
-interfacing priot to detailed design.
+systems by proper requirements development and high-level design addressing
+stated requirements and defined up to requirements on single blocks and
+interface specification
 
 A. Mission/project definition
 =============================
