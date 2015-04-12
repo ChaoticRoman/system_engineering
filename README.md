@@ -22,8 +22,8 @@ and operating environment, preliminary schedule and budget
 The presented procedure is simplified version of system engineering procedure
 required by European Cooperation on Space Standardization (ECSS) stadards.
 The procedure is simplified for purpose of small (<10 people) and short (<1 year)
-projects. Seven project phases were identified but project development
-is very often incremental process due to different reasons and system design
+projects. Six project phases were identified but project development
+is much more often incremental process due to different reasons and system design
 should be flexible and robust enough to be able to incorporate changes
 due to requirement change or previous flawed design decisions.
 
@@ -78,7 +78,7 @@ Phase D: Prototyping, verification and testing
 - Build logs
 - Test reports
 
-Phase F: Production, operation and support
+Phase E: Production, operation and support
 ------------------------------------------
 
 - Production logs
@@ -86,7 +86,7 @@ Phase F: Production, operation and support
 - Support reports
 - Failure log
 
-Phase G: End of life and disposal
+Phase F: End of life and disposal
 ---------------------------------
 
 - Disposal statement
