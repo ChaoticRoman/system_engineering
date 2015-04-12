@@ -19,8 +19,8 @@ The presented procedure is simplified version of system engineering required
 by European Cooperation on Space Standardization (ECSS) stadards. The procedure
 is simplified for small (<5k$ USD) and short (<1 year) projects.
 
-A. Project definition
----------------------
+Phase A: Project definition
+---------------------------
 
 ### Mission/project statement
 
@@ -36,8 +36,8 @@ statement, is verifable, separatedly stated.
 Note: Mission/project statement and Requirements specification document
 can be merged to single Mission/project definition document
 
-B. High-level design
---------------------
+Phase B: High-level design
+--------------------------
 
 ### System concept report
 
@@ -48,8 +48,8 @@ to mission/project statement, feasibility
 Note: Mission/project statement and Requirements specification should
 be part of System concept report and any change shall be justified.
 
-C. Detailed design
-------------------
+Phase C: Detailed design
+------------------------
 
 ### Design definiton file
 
@@ -61,24 +61,23 @@ compliance to high-level design...
 Note: System concept report should be part of Design definition file and
 any change shall be justified.
 
-D. Implementation
-=============================
+Phase D: Implementation
+-----------------------
 
 - Build logs
 
-E. Verification
-=============================
-
+Phase E: Verification
+---------------------
 - Test reports
 
-F. Operations and support
-=========================
+Phase F: Operations and support
+-------------------------------
 
 - Operational logs
 - Support reports
 - Failures log
 
-Phase G. Disposal
-=================
+Phase G: Disposal
+-----------------
 
 - Disposal log
