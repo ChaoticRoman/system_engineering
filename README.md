@@ -4,20 +4,25 @@ System engineering procedure
 Roman Pavelka <ChaoticRoman@seznam.cz>
 
 Revision history:
+
 1. RP, 2015-04-02: Initial version
 2. RP, 2015-04-12: Asciidoc format, garbage out, notes, introduction
 
 Introduction
 ============
 The aim of this document is to define system engineering procedure suitable
-for projects or missions featuring different blocks interfaced in various ways.
+for projects featuring different blocks interfaced in various ways.
 The purpose of system engineering procedure is to support development of such
 systems by proper requirements development and high-level design addressing
-stated requirements and defined up to requirements on single blocks and
-interface specification
+stated requirements and defined up to requirements on single blocks, interface
+specification and feasibility analysis.
 
-A. Mission/project definition
-=============================
+The presented procedure is simplified version of system engineering required
+by European Cooperation on Space Standardization (ECSS) stadards. The procedure
+is simplified for small (<5k$ USD) and short (<1 year) projects.
+
+A. Project definition
+=====================
 
 Mission/project statement
 -------------------------
@@ -42,21 +47,21 @@ System blocks description and its requirements, interfacing, HW, SW,
 tools, functional description, requirement traceability, justification
 to mission/project statement, feasibility
 
-    Note: Mission/project statement and Requirements specification should
-    be part of System concept report and any change shall be justified.
+Note: Mission/project statement and Requirements specification should
+be part of System concept report and any change shall be justified.
 
 C. Detailed design
 =============================
 
 Design definiton file
 ---------------------
-    Schematics, layouts, code, suppliers, user manuals, operation procedures,
-    implementation, verification and testing procedures, supporting and disposal
-    plans, schedule, budged, life cycle including end-of-life and disposal,
-    compliance to high-level design.
+Schematics, layouts, code, suppliers, user manuals, operation procedures,
+implementation, verification and testing procedures, supporting and disposal
+plans, schedule, budged, life cycle including end-of-life and disposal,
+compliance to high-level design...
 
-    Note: System concept report should be part of Design definition file and
-    any change shall be justified.
+Note: System concept report should be part of Design definition file and
+any change shall be justified.
 
 D. Implementation
 =============================
