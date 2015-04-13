@@ -6,7 +6,7 @@ Revision history:
 
 1. 2015-04-02, RP: Initial version.
 2. 2015-04-12, RP: Notes, introduction, minor changes.
-3. 2015-04-13, RP: spell correct, rephrasing
+3. 2015-04-13, RP: Spelling corrected, rephrased.
 
 
 Introduction
@@ -79,20 +79,20 @@ any change shall be justified.
 Phase D: Prototyping, verification and testing
 ----------------------------------------------
 
-- Build logs
-- Test reports
+### Build logs
+### Test reports
 
 
 Phase E: Production, operation and support
 ------------------------------------------
 
-- Production logs
-- Operation logs
-- Support reports
-- Failure log
+### Production logs
+### Operation logs
+### Support reports
+### Failure log
 
 
 Phase F: End of life and disposal
 ---------------------------------
 
-- Disposal statement
+### Disposal statement
