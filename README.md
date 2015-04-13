@@ -61,6 +61,7 @@ should be provided in form of Project statement and Requirements specification
 documents. Project statement and Requirements specification should be part
 of System concept and any change in these shall be justified.
 
+
 Phase C: Detailed design
 ------------------------
 
@@ -74,11 +75,13 @@ life cycle including end-of-life and disposal and compliance to high-level
 design. System concept report should be part of Design definition file and
 any change shall be justified.
 
+
 Phase D: Prototyping, verification and testing
 ----------------------------------------------
 
 - Build logs
 - Test reports
+
 
 Phase E: Production, operation and support
 ------------------------------------------
@@ -87,6 +90,7 @@ Phase E: Production, operation and support
 - Operation logs
 - Support reports
 - Failure log
+
 
 Phase F: End of life and disposal
 ---------------------------------
